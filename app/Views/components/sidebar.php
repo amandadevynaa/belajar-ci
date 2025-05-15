@@ -20,7 +20,7 @@
         if (session()->get('role') == 'admin') {
         ?>
             <li class="nav-item">
-                <a class="nav-link <?php echo (uri_string() == 'produk') ? "" : "collapsed" ?>" href="produk">
+                <a class="nav-link <?php echo (uri_string() == '') ? "" : "collapsed" ?>" href="produk">
                     <i class="bi bi-receipt"></i>
                     <span>Produk</span>
                 </a>
@@ -28,6 +28,12 @@
         <?php
         }
         ?>
+        <li class="nav-item">
+            <a class="nav-link <?php echo (uri_string() == '') ? "" : "collapsed" ?>" href="profil">
+                <i class="bi bi-person"></i>
+                <span>Profil</span>
+            </a>
+        </li><!-- End Keranjang Nav -->
     </ul>
 
 </aside><!-- End Sidebar-->
