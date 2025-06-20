@@ -26,7 +26,10 @@ class ApiController extends ResourceController
     {
         $this->apiKey = env('API_KEY');
         $this->user = new UserModel();
+
         $this->transaction = new TransactionModel();
+
+        $this->transaction = new TransactionDetailModel();
         $this->transactionDetail = new TransactionDetailModel();
 
     }
@@ -126,4 +129,6 @@ class ApiController extends ResourceController
     {
         //
     }
+
 }
+

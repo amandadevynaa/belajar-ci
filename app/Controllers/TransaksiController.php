@@ -20,6 +20,7 @@ class TransaksiController extends BaseController
         helper('number');
         helper('form');
         $this->cart = \Config\Services::cart();
+
         $this->client = new \GuzzleHttp\Client();
         $this->apiKey = env('COST_KEY');
         $this->transaction = new TransactionModel();

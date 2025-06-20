@@ -22,6 +22,7 @@ class Home extends BaseController
         $this->transactionDetail = new TransactionDetailModel();
 
     }
+
     public function index()
     {
     $product = $this->product->findAll();
@@ -29,7 +30,12 @@ class Home extends BaseController
     return view('v_home', $data);
     }
 
-    public function profile()
+    public function faq()
+    {
+    return view('v_faq'); // Adjust according to your view file
+    }
+
+    public function history()
     {
         $username = session()->get('username');
         $data['username'] = $username;
@@ -53,7 +59,6 @@ class Home extends BaseController
 
         $data['product'] = $product;
 
-        return view('v_profile', $data);
     }
 }
 }

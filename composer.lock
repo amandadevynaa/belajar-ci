@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "content-hash": "ac0e07de69ec80383d6d971ae3b9c755",
+    "content-hash": "f48a4e417439c6693e31e92cb17ebc06",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -562,6 +563,7 @@
             "time": "2025-03-27T12:30:47+00:00"
         },
         {
+
             "name": "jason-napolitano/codeigniter4-cart-module",
             "version": "1.1.0",
             "source": {
@@ -726,6 +728,7 @@
             "time": "2024-03-31T07:05:07+00:00"
         },
         {
+
             "name": "psr/http-client",
             "version": "1.0.3",
             "source": {
@@ -886,6 +889,7 @@
             "time": "2023-04-04T09:54:51+00:00"
         },
         {
+
             "name": "psr/log",
             "version": "1.1.4",
             "source": {
@@ -936,6 +940,7 @@
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
+
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -980,6 +985,7 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
+
             "name": "sabberworm/php-css-parser",
             "version": "v8.8.0",
             "source": {
@@ -1043,6 +1049,7 @@
                 "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
             },
             "time": "2025-03-23T17:59:05+00:00"
+
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1110,6 +1117,7 @@
                 }
             ],
             "time": "2022-01-02T09:55:41+00:00"
+
         }
     ],
     "packages-dev": [
@@ -2971,6 +2979,74 @@
                 }
             ],
             "time": "2020-09-28T06:39:44+00:00"
+        },
+        {
+
+            "name": "symfony/deprecation-contracts",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
+                "branch-alias": {
+                    "dev-main": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-01-02T09:55:41+00:00"
         },
         {
             "name": "theseer/tokenizer",
