@@ -1,10 +1,10 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-<div class="container mt-5">
+
     <h3 class="mb-4">Profil Pengguna</h3>
     <div class="card">
-        <div class="card-body">
+        <div class="">
             <ul class="list-group">
                 <li class="list-group-item">
                     <strong>Username:</strong> <?= esc($username) ?>
@@ -24,6 +24,6 @@
             </ul>
         </div>
     </div>
-</div>
+
 
 <?= $this->endSection() ?>
